@@ -1,17 +1,46 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Bebidas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-searchbar placeholder="Pesquise" color = "medium" showCancelButton="focus"></ion-searchbar>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://pikfly.com/images/products/140/38261.jpg">
+    </ion-thumbnail>
+    <ion-label>Coca Cola 1L</ion-label>
+    <ion-badge color="dark">6,00</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.tiktac.com.br/wp-content/uploads/2020/10/refrigerante-guarana-kuat-2L-tiktac-ilhabela.jpg">
+    </ion-thumbnail>
+    <ion-label>Kuat 2L</ion-label>
+    <ion-badge color="dark">7,00</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.viacapripizzas.com/wp-content/uploads/Guarana-2L.jpg">
+    </ion-thumbnail>
+    <ion-label>Guaraná Antártica 2L</ion-label>
+    <ion-badge color="dark">9,00</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://supplies-eu.com/wp-content/uploads/2021/05/Coca-Cola-2L.jpeg">
+    </ion-thumbnail>
+    <ion-label>Coca Cola 2L</ion-label>
+    <ion-badge color="dark">12,00</ion-badge>
+  </ion-item>
+    <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://cdn.shopify.com/s/files/1/0498/9075/4727/products/pepsi-2-liter-535280_800x.jpg?v=1621949101">
+    </ion-thumbnail>
+    <ion-label>Pepsi 2L</ion-label>
+    <ion-badge color="dark">6,00</ion-badge>
+  </ion-item>
 </ion-content>
